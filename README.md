@@ -88,6 +88,12 @@ and WiFi monitoring — built on STM32F407VGT6 with FreeRTOS.
 
 ## 📁 Repository Structure
 
+smart-infusion-pump/
+├── CubeMX/          # STM32CubeMX .ioc config file
+├── Firmware/        # FreeRTOS application code
+├── Schematics/      # KiCad PCB design files
+├── Docs/            # Architecture diagrams
+└── Images/          # Hardware photos
 ---
 
 ## 👤 Author
