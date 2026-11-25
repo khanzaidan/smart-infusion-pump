@@ -86,15 +86,19 @@ and WiFi monitoring — built on STM32F407VGT6 with FreeRTOS.
 
 ---
 
+[Browse the firmware by processor](docs/firmware-map.md)
+
 ## 📁 Repository Structure
 
 ```
 smart-infusion-pump/
-├── CubeMX/          # STM32CubeMX .ioc config file
-├── Firmware/        # FreeRTOS application code
-├── Schematics/      # KiCad PCB design files
-├── Docs/            # Architecture diagrams
-└── Images/          # Hardware photos
+├── Core/                       STM32 application, headers and startup
+├── Drivers/                    CMSIS and STM32 HAL
+├── Middlewares/                FreeRTOS and middleware
+├── SMART_INFUSION.ioc          STM32CubeMX configuration
+├── SMART_INFUSION_ATmega/      ATmega companion sketch
+├── SMART_INFUSION_ESP32/       ESP32 companion sketch
+└── docs/firmware-map.md        Source index by processor
 ```
 
 ---
