@@ -107,3 +107,9 @@ smart-infusion-pump/
 **Zaidan Khan** — Embedded R&D Intern @ Walnut Medical  
 📧 khanzaidaan786@gmail.com  
 🔗 [LinkedIn](https://linkedin.com/in/zaidan-khan-ab30922aa)
+
+## Reference hardware files
+
+[Telemetry observation fixture](hardware/README.md) is a newly drawn bench interface for this project. The hardware guide includes the pinout, KiCad and Altium projects, schematic PDF, routed PCB image, BOM, fabrication artwork and validation reports.
+
+![Telemetry observation fixture, PCB layout](hardware/images/pcb-top.png)

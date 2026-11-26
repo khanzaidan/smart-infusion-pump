@@ -1,0 +1,8 @@
+[Design]
+Version=1.0
+HierarchyMode=0
+ChannelRoomNamingStyle=0
+[Document1]
+DocumentPath=reference.SchDoc
+[Document2]
+DocumentPath=reference.PcbDoc
